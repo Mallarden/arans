@@ -36,6 +36,10 @@
     width:100%;
 }
 
+#order_review_heading {
+    padding-bottom:8px;
+}
+
 .entry-summary > * {
     padding-top:15px;
     input {
@@ -46,6 +50,10 @@
 }
 
 .woocommerce .single_add_to_cart_button {
+    background-color:#B28E6A !important;
+}
+
+.woocommerce #payment #place_order {
     background-color:#B28E6A !important;
 }
 
@@ -75,4 +83,8 @@
 
 .woocommerce form .form-row input.input-text {
     height:35px;
+}
+
+.woocommerce .woocommerce-customer-details address {
+    border:0px;
 }

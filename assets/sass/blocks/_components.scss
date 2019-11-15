@@ -12,3 +12,27 @@
         margin-top:25px;
     }
 }
+
+.checkbox input[type="checkbox"] {
+    position:relative !important;
+}
+
+.blog-author {
+    max-width:340px;
+    width:100%;
+    display:flex;
+    // justify-content: space-around;
+    font-size:0.8em;
+    color:#555;
+
+    .author {
+        padding-left:20px;
+    }
+}
+
+.uagb-post-grid .uagb-post__image img {
+    display: block;
+    width: 100%;
+    max-height: 275px;
+    object-fit: cover;
+}
