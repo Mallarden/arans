@@ -36,3 +36,13 @@
     max-height: 275px;
     object-fit: cover;
 }
+
+
+div.advgb-image-block {
+    &:hover .advgb-image-subtitle {
+        display:block;
+        cursor:pointer;
+        transition:.3s ease-in-out;
+    }
+    transition:.3s ease-in-out;
+}

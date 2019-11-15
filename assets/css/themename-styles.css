@@ -13763,6 +13763,15 @@ button#responsive-menu-button {
   object-fit: cover;
 }
 
+div.advgb-image-block {
+  transition: .3s ease-in-out;
+}
+div.advgb-image-block:hover .advgb-image-subtitle {
+  display: block;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
+
 .woocommerce ul.products li.product .button {
   margin-top: 0px;
 }
@@ -13801,6 +13810,30 @@ button#responsive-menu-button {
 
 #order_review_heading {
   padding-bottom: 8px;
+  font-size: 1.3em;
+}
+
+.advgb-image-subtitle {
+  display: none;
+  transition: .3s ease-in-out;
+}
+
+.advgb-image-title {
+  font-size: 1.5em !important;
+}
+
+.woocommerce ul.products li.product .price {
+  color: #77a464;
+  display: block;
+  font-weight: 400;
+  margin-bottom: 1em;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+.woocommerce ul.products li.product .woocommerce-loop-product__title {
+  padding-bottom: 0px;
 }
 
 .entry-summary > * {
