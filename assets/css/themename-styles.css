@@ -13741,6 +13741,11 @@ button#responsive-menu-button {
     margin-top: 25px;
   }
 }
+.wp-block-image img {
+  display: block;
+  margin: 0 auto;
+}
+
 .checkbox input[type="checkbox"] {
   position: relative !important;
 }
@@ -13884,4 +13889,8 @@ div.advgb-image-block:hover .advgb-image-subtitle {
 
 .woocommerce div.product .woocommerce-tabs .panel h2:first-child {
   padding-bottom: 20px;
+}
+
+.up-sells li.product {
+  padding-top: 20px !important;
 }
