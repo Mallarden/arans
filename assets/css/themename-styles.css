@@ -13881,3 +13881,7 @@ div.advgb-image-block:hover .advgb-image-subtitle {
 .woocommerce .woocommerce-customer-details address {
   border: 0px;
 }
+
+.woocommerce div.product .woocommerce-tabs .panel h2:first-child {
+  padding-bottom: 20px;
+}
